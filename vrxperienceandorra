@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pàgina Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #ff5a5f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #343a40;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #495057;
+        }
+        .container {
+            padding: 20px;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1920x600');
+            background-size: cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #343a40;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Benvingut a la meva Pàgina Personal</h1>
+</header>
+
+<nav>
+    <a href="#inici">Inici</a>
+    <a href="#serveis">Serveis</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contacte">Contacte</a>
+</nav>
+
+<div class="hero">
+    <h1>Descobreix els meus Projectes i Serveis</h1>
+    <p>Explora el meu treball i com puc ajudar-te.</p>
+</div>
+
+<div class="container">
+    <section id="inici" class="section">
+        <h2>Inici</h2>
+        <p>Benvingut a la meva pàgina personal! Aquí podràs trobar informació sobre els meus projectes, els serveis que ofereixo i com contactar amb mi.</p>
+    </section>
+
+    <section id="serveis" class="section">
+        <h2>Serveis</h2>
+        <p>Ofereixo una àmplia gamma de serveis que inclouen desenvolupament web, disseny gràfic i consultoria tecnològica.</p>
+    </section>
+
+    <section id="galeria" class="section">
+        <h2>Galeria</h2>
+        <p>Aquí pots veure alguns dels meus projectes més recents.</p>
+        <img src="https://via.placeholder.com/300" alt="Projecte 1">
+        <img src="https://via.placeholder.com/300" alt="Projecte 2">
+        <img src="https://via.placeholder.com/300" alt="Projecte 3">
+    </section>
+
+    <section id="contacte" class="section">
+        <h2>Contacte</h2>
+        <p>Si vols contactar amb mi, pots enviar-me un correu electrònic a <a href="mailto:email@example.com">email@example.com</a>.</p>
+    </section>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 Pàgina Personal. Tots els drets reservats.</p>
+</div>
+
+</body>
+</html>
